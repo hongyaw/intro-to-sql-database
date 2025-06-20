@@ -1,6 +1,3 @@
-# intro-to-sql-database
-A beginner-friendly collection of SQL scripts and exercises for learning database fundamentals, relational algebra operations, and schema design using Oracle SQL.
-
 # Intro to SQL Database
 
 This repository provides beginner-friendly SQL scripts and relational algebra examples to help you learn fundamental database concepts using Oracle SQL.
