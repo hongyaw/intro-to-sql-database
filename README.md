@@ -1,39 +1,57 @@
 # Intro to SQL Database
 
-This repository provides beginner-friendly SQL scripts and relational algebra examples to help you learn fundamental database concepts using Oracle SQL.
-
-## 📁 Files Included
-
-### 1. `grocery_shop_schema.sql`
-- Defines `PRODUCT` and `PRODUCT_DETAIL` tables
-- Includes INSERT statements and various SQL queries:
-  - LEFT, RIGHT, FULL OUTER JOINs
-  - Renaming columns
-  - Viewing table attributes
-
-### 2. `university_student_department.sql`
-- Models a university setup with `STUDENT` and `DEPARTMENT` tables
-- Demonstrates:
-  - Selection and projection
-  - Cartesian product
-  - Outer joins
-- Shows handling of NULL values and referential integrity
-
-### 3. `relational_algebra_sql_notes_and_output.docx`
-- Contains relational algebra notations with matching SQL statements
-- Includes expected outputs and explanations
-- Great for understanding both theory and practice
-
-## 🧠 Concepts Covered
-- Table creation with PRIMARY and FOREIGN KEY constraints
-- Data insertion and retrieval (SELECT, WHERE)
-- Relational algebra concepts mapped to SQL
-- JOIN operations: LEFT, RIGHT, FULL OUTER JOIN
-
-## 🛠️ Tools Used
-- [Oracle Live SQL](https://livesql.oracle.com/)
-- SQL Developer or any SQL interface supporting Oracle syntax
+This repository provides beginner-friendly SQL scripts and exercises to help you learn fundamental database concepts and operations using Oracle SQL.
 
 ---
 
-Feel free to explore and modify the scripts as part of your learning journey. Contributions and suggestions are welcome!
+## 📁 Files Included
+
+### 🔹 Part 1 – SQL Basics and Relational Algebra
+
+| File                                   | Description                                                                 |
+|----------------------------------------|-----------------------------------------------------------------------------|
+| `1a_grocery_shop_schema.sql`           | SQL DDL and DML for a grocery shop system with JOIN queries and column renaming |
+| `1b_university_student_department.sql` | University schema with `STUDENT` and `DEPARTMENT` tables; includes outer joins |
+| `1c_relational_algebra_sql_notes.docx` | Written tutorial with relational algebra expressions mapped to SQL queries |
+
+---
+
+### 🔹 Part 2 – Hotel Booking System Assignment
+
+| File                                   | Description                                                                 |
+|----------------------------------------|-----------------------------------------------------------------------------|
+| `2a_hotel_booking_system_assignment.docx` | Assignment brief including table structure, sample data, and query tasks  |
+| `2b_hotel_booking_system_assignment.sql`  | Full solution: DDL, DML, and SQL queries based on the assignment scenario |
+
+---
+
+## 💡 Topics Covered
+
+- SQL table creation with primary/foreign keys (DDL)
+- Data insertion (DML)
+- Selection, projection, and filtering
+- Aggregation and ordering
+- Outer joins (LEFT, RIGHT, FULL)
+- Relational algebra mapped to SQL
+- Update statements
+- Real-world schema design (hotel booking system)
+
+---
+
+## 🛠️ Tools Used
+
+- [Oracle Live SQL](https://livesql.oracle.com/)
+- SQL Developer or any SQL-compatible IDE
+
+---
+
+## 📌 How to Use
+
+1. Clone or download this repository.
+2. Open `.sql` files in Oracle Live SQL or your SQL environment.
+3. Review the `.docx` files for notes and explanations.
+4. Experiment, modify, and practice the queries!
+
+---
+
+Feel free to fork this repo or contribute improvements!
