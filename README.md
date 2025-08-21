@@ -84,7 +84,7 @@ Feel free to fork this repo or contribute improvements!
 **Lecturer:** Assistant Professor Dr. Ancy Micheal Antony Micheal, UCSI University  
 
 **Creator:**  
-- **[Your Name]** – Developer of the PL/SQL exercises, tutorials, and solutions in this repository.
+- **Quek Hong Yaw** – Developer of the PL/SQL exercises, tutorials, and solutions in this repository.
 
 **Acknowledgements:**  
 - The exercises and tutorials in this repository were created as part of the **Database Technology** course under the guidance of **Assistant Professor Dr. Ancy Micheal Antony Micheal**.  
