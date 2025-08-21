@@ -54,6 +54,7 @@ This repository provides beginner-friendly SQL scripts and exercises to help you
 - PL/SQL control structures (IF-ELSE, LOOP)
 - String functions (LTRIM, RTRIM, UPPER, etc.)
 - Arithmetic operations and conditionals in PL/SQL
+- PL/SQL create procedure and function
 
 ---
 
