@@ -78,7 +78,14 @@ Feel free to fork this repo or contribute improvements!
 
 ---
 
-## Credits: 
-Author: Quek Hong Yaw
-Tutorial Sources: The tutorials are based on exercises from Assistant Professor Dr. Ancy Micheal Antony Micheal Assistant Professor, UCSI University.
-Course: Database Technology
+## Credits
+
+**Course:** Database Technology  
+**Lecturer:** Assistant Professor Dr. Ancy Micheal Antony Micheal, UCSI University  
+
+**Creator:**  
+- **[Your Name]** – Developer of the PL/SQL exercises, tutorials, and solutions in this repository.
+
+**Acknowledgements:**  
+- The exercises and tutorials in this repository were created as part of the **Database Technology** course under the guidance of **Assistant Professor Dr. Ancy Micheal Antony Micheal**.  
+- Special thanks to various **PL/SQL resources** and guides that helped design the tutorials.
