@@ -75,3 +75,10 @@ This repository provides beginner-friendly SQL scripts and exercises to help you
 ---
 
 Feel free to fork this repo or contribute improvements!
+
+---
+
+## Credits: 
+# Author: Quek Hong Yaw
+# Tutorial Sources: The tutorials are based on exercises from Assistant Professor Dr. Ancy Micheal Antony Micheal Assistant Professor, UCSI University.
+# Course: Database Technology
