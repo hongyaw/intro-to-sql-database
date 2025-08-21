@@ -1,0 +1,50 @@
+CREATE TABLE student_scores(
+    student_id NUMBER PRIMARY KEY,
+    name VARCHAR2(50),
+    mark1 NUMBER,
+    mark2 NUMBER,
+    mark3 NUMBER,
+    total NUMBER,
+    grade VARCHAR2(2)
+);
+
+INSERT INTO student_scores (student_id, name) VALUES (102, 'Jane Smith'); COMMIT;
+
+
+CREATE or REPLACE FUNCTION calculate_total(p_mark1 IN NUMBER, p_mark2 IN NUMBER, p_mark3 IN NUMBER)
+RETURN NUMBER
+IS 
+    v_total NUMBER;
+BEGIN
+    v_total := p_mark1 + p_mark2 + p_mark3;
+    RETURN v_total;
+END;
+/
+CREATE OR REPLACE PROCEDURE update_student_result(p_student_id IN NUMBER, p_mark1 IN NUMBER, p_mark2 IN NUMBER, p_mark3 IN NUMBER)
+IS 
+    v_sum NUMBER;
+    v_grade VARCHAR2(2);
+BEGIN
+    v_sum := calculate_total(p_mark1, p_mark2, p_mark3);
+    IF v_sum >= 240 THEN
+        v_grade := 'A';
+    ELSIF v_sum >= 180 THEN
+        v_grade := 'B';
+    ELSE 
+        v_grade := 'C';
+    END IF;
+    UPDATE student_scores
+    SET
+        mark1 = p_mark1,
+        mark2 = p_mark2,
+        mark3 = p_mark3,
+        total = v_sum,
+        grade = v_grade
+    WHERE student_id = p_student_id;
+END;
+/
+BEGIN
+    update_student_result(102,80,90,90);
+END;
+/
+SELECT * FROM STUDENT_SCORES;

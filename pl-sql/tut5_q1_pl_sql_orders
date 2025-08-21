@@ -1,0 +1,40 @@
+CREATE TABLE ORDERS(
+    OrderID NUMBER,
+    CustomerID NUMBER,
+    OrderAmount NUMBER 
+);
+INSERT INTO Orders VALUES (1, 101, 250);
+INSERT INTO Orders VALUES (2, 101, 300);
+INSERT INTO Orders VALUES (3, 102, 150);
+
+CREATE OR REPLACE FUNCTION CalculateTotalOrders (p_CustomerID IN NUMBER)
+RETURN VARCHAR2
+IS
+    v_total NUMBER := 0;
+BEGIN
+    SELECT NVL(SUM(OrderAmount), -99)
+    INTO v_total
+    FROM ORDERS
+    WHERE CustomerID = p_CustomerID;
+
+    IF v_total = -99 THEN 
+        RETURN 'No orders found for Customer ' || p_CustomerID;
+    ELSE 
+        RETURN 'Total orders for Customer ' || p_CustomerID || ' = ' || v_total;
+    END IF;
+
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        RETURN 'No orders found for Customer ' || p_CustomerID;
+END;
+
+DECLARE
+    v_result VARCHAR2(200);
+BEGIN
+    v_result := CalculateTotalOrders(101);  
+    DBMS_OUTPUT.PUT_LINE(v_result);
+    v_result := CalculateTotalOrders(103);  
+    DBMS_OUTPUT.PUT_LINE(v_result);
+END;
+
+
