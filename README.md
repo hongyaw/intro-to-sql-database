@@ -29,7 +29,7 @@ This repository provides beginner-friendly SQL scripts and exercises to help you
 
 | **File**                                              | **Description**                                                                 |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|
-| Tutorial3-may2025.pdf                                 | Tutorial document describing PL/SQL exercises and learning objectives           |
+| Tutorial 3-may2025.pdf                                 | Tutorial document describing PL/SQL exercises and learning objectives           |
 | Tutorial 4-may2025.pdf                                | Tutorial document focused on **Procedure** and **Function** in PL/SQL. Contains tasks such as creating tables, writing functions, and updating student results. |
 | Tutorial 5-may2025.pdf                                | Tutorial document with exercises involving **functions** like calculating total orders and retrieving student info. |
 | tut3_q1_Salary_Calculation_with_IF-ELSE.sql           | PL/SQL program to compute salary using **IF-ELSE** logic.                       |
