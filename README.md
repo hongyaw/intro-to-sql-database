@@ -79,6 +79,6 @@ Feel free to fork this repo or contribute improvements!
 ---
 
 ## Credits: 
-# Author: Quek Hong Yaw
-# Tutorial Sources: The tutorials are based on exercises from Assistant Professor Dr. Ancy Micheal Antony Micheal Assistant Professor, UCSI University.
-# Course: Database Technology
+### Author: Quek Hong Yaw
+### Tutorial Sources: The tutorials are based on exercises from Assistant Professor Dr. Ancy Micheal Antony Micheal Assistant Professor, UCSI University.
+### Course: Database Technology
