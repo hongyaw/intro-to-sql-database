@@ -29,17 +29,21 @@ This repository provides beginner-friendly SQL scripts and exercises to help you
 
 | **File**                                              | **Description**                                                                 |
 |-------------------------------------------------------|---------------------------------------------------------------------------------|
-| Tutorial 3-may2025.pdf                                 | Tutorial document describing PL/SQL exercises and learning objectives           |
-| Tutorial 4-may2025.pdf                                | Tutorial document focused on **Procedure** and **Function** in PL/SQL. Contains tasks such as creating tables, writing functions, and updating student results. |
-| Tutorial 5-may2025.pdf                                | Tutorial document with exercises involving **functions** like calculating total orders and retrieving student info. |
-| tut3_q1_Salary_Calculation_with_IF-ELSE.sql           | PL/SQL program to compute salary using **IF-ELSE** logic.                       |
-| tut3_q2_Loop_and_Arithmetic_Operations.sql            | PL/SQL loop that prints the square and cube of numbers from 1 to 5.             |
-| tut3_q3_Character_Manipulation_Functions.sql          | PL/SQL string manipulation using built-in functions.                            |
-| factorial.sql                                         | PL/SQL loop that calculates the factorial of a number.                         |
-| tut4_function_procedure_UpdateStudentScores.sql       | PL/SQL procedure that updates student scores, total, and grade in the `student_scores` table. |
-| tut5-q2_pl_sql_GetStudentInfo.sql                     | PL/SQL function to fetch student information (full name and class name).        |
-| tut5_q1_pl_sql_orders.sql                             | PL/SQL function to calculate the total order amount for a given customer ID.    |
+| `Tutorial 3-may2025.pdf`                               | Tutorial document describing PL/SQL exercises and learning objectives.           |
+| `Tutorial 4-may2025.pdf`                               | Tutorial document focused on **Procedure** and **Function** in PL/SQL. Contains tasks such as creating tables, writing functions, and updating student results. |
+| `Tutorial 5-may2025.pdf`                               | Tutorial document with exercises involving **functions** like calculating total orders and retrieving student info. |
+| `Tutorial 6-may2025.pdf`                               | Tutorial document involving **cursor** and **trigger** examples. Includes creating a student_marks table, using a cursor to fetch student records, and applying row- and statement-level triggers. |
 
+| **File**                                              | **Description**                                                                 |
+|-------------------------------------------------------|---------------------------------------------------------------------------------|
+| `tut3_q1_Salary_Calculation_with_IF-ELSE.sql`           | PL/SQL program to compute salary using **IF-ELSE** logic.                       |
+| `tut3_q2_Loop_and_Arithmetic_Operations.sql`            | PL/SQL loop that prints the square and cube of numbers from 1 to 5.             |
+| `tut3_q3_Character_Manipulation_Functions.sql`          | PL/SQL string manipulation using built-in functions.                            |
+| `factorial.sql`                                        | PL/SQL loop that calculates the factorial of a number.                         |
+| `tut4_function_procedure_UpdateStudentScores.sql`       | PL/SQL procedure that updates student scores, total, and grade in the `student_scores` table. |
+| `tut5-q2_pl_sql_GetStudentInfo.sql`                     | PL/SQL function to fetch student information (full name and class name).        |
+| `tut5_q1_pl_sql_orders.sql`                             | PL/SQL function to calculate the total order amount for a given customer ID.    |
+| `tut6_pl_sql_cursor&trigger_studentmarks.sql`           | PL/SQL script for creating the `student_marks` table, using a cursor to fetch records, and applying triggers to prevent invalid data insertion and confirm successful insertions. |
 
 ---
 
